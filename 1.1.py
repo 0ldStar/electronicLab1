@@ -26,9 +26,9 @@ plt.plot(X2, derivative2(X2), 'k--')
 X3 = np.arange(800, 842)
 plt.plot(X3, derivative3(X3), 'k--')
 
-plt.hlines(10, 0, 818, linestyles='--', colors='black')
+plt.hlines(10, 150, 818, linestyles='--', colors='black')
 plt.vlines(818, 0, 10, linestyles='--', colors='black')
-plt.hlines(1, 0, 743, linestyles='--', colors='black')
+plt.hlines(1, 150, 743, linestyles='--', colors='black')
 plt.vlines(743, 0, 1, linestyles='--', colors='black')
 
 plt.scatter(818, 10, label='O')
